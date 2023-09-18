@@ -5,7 +5,7 @@ import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 import Login from "./components/Login";
 import Logout from "./components/Logout";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Products from "./components/Products";
 import Register from "./components/Register";

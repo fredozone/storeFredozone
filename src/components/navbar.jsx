@@ -20,7 +20,7 @@ import InputBase from "@mui/material/InputBase";
 // const settings = ["Cart", "Login", "Logout"];
 import { Link, NavLink } from "react-router-dom";
 
-function Navbar({ auth, countProduct, setSearchInput }) {
+function navbar({ auth, countProduct, setSearchInput }) {
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [category, setCategory] = useState([]);
   const isCart = location.pathname === "/cart";
@@ -341,4 +341,4 @@ function Navbar({ auth, countProduct, setSearchInput }) {
     </>
   );
 }
-export default Navbar;
+export default navbar;
